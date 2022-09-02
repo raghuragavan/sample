@@ -1,0 +1,60 @@
+
+.user-data{
+  border: 2px solid red;
+  width:30%;
+  padding:20px;
+  border-radius: 7px;
+  height: 40%;
+}
+
+.user{
+  background-color:lightgray;
+  height: 100vh;
+  align-items: center;
+}
+
+@media  screen and (min-width: 280px) and (max-width: 380px) {
+.user-data{
+  width: 95%;
+  height: 34%;
+}
+}
+
+@media  screen and (min-width: 381px) and (max-width: 599px) {
+.user-data{
+  width: 95%;
+  height:30%
+}
+}
+
+@media  screen and (min-width: 600px) and (max-width: 767px) {
+.user-data{
+  width: 95%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+.user-data{
+  width: 95%;
+  margin-top: 5%;
+  height: 23%;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+.user-data{
+   width: 60%;
+   margin-top: 5%;
+   height: 35%;
+}
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+.user-data{
+   width: 35%;
+   margin-top: 5%;
+   height: 30%;
+}
+}
+

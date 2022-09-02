@@ -1,0 +1,21 @@
+<div class="container-fluid details">
+  <div class="row ">
+    <div class="col-lg-12 col-md-12 col-12 ">
+      <form [formGroup]="myForm2" (ngSubmit)="onSubmit()"
+        class="d-flex align-items-center justify-content-center details-div">
+        <div class="form">
+          <h2 class="text-success">Enter your details</h2> <br>
+          <div>
+            <input class="form-control p-2" type="email" formControlName="email" placeholder=" Enter Email address">
+          </div><br>
+          <div>
+            <input class="form-control p-2" type="number" formControlName="phone" placeholder=" Enter Phone Number">
+          </div><br>
+          <div>
+            <button type="submit" class="btn btn-success">Next</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

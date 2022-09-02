@@ -1,0 +1,38 @@
+.form{
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 9px;
+  padding: 25px;
+  width: 40%;
+}
+.details{
+  background-color: lightgray;
+}
+.details-div{
+  height: 100vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+.form{
+  width: 100%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.form{
+  width: 90%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.form{
+  width: 40%;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.form{
+  width: 40%;
+}
+}
